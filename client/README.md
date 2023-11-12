@@ -12,3 +12,4 @@ packages :
  - npx tailwindcss init -p
  - npm i react-router-dom
  - npm i @reduxjs/toolkit react-redux
+ - npm i redux-persist
