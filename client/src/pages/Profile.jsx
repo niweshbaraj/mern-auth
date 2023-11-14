@@ -53,7 +53,7 @@ function Profile() {
       request.resource.size < 2 * 1024 *1024 &&
       request.resource.contentType.matches('image/.*') */}
 
-        <img src={currentUser.profilePicture} alt={`profile picture of ${currentUser.name}`} className='h-24 w-24 self-center cursor-pointer rounded-full object-cover mt-2' onClick={() => fileRef.current.click()}/>
+        <img src={formData.profilePicture || currentUser.profilePicture} alt={`profile picture of ${currentUser.name}`} className='h-24 w-24 self-center cursor-pointer rounded-full object-cover mt-2' onClick={() => fileRef.current.click()}/>
 
         <p className='text-sm self-center'>
           {imageError ? (
