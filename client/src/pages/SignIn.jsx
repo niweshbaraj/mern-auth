@@ -33,7 +33,7 @@ function SignIn() {
         return;
       }
       dispatch(signInSuccess(data));
-      navigate('/');
+      navigate('/profile');
     } catch (error) {
       dispatch(signInFailure(error));
     }

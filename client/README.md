@@ -13,3 +13,4 @@ packages :
  - npm i react-router-dom
  - npm i @reduxjs/toolkit react-redux
  - npm i redux-persist
+ - npm i firebase (for google login)
